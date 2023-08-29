@@ -23,7 +23,7 @@ jobs:
           npm install
       
       - name: Run the Node.js application
-        run: nodemon \index.js
+        run: npx nodemon \index.js
       
       - name: Upload artifact for deployment job
         uses: actions/upload-artifact@v2
